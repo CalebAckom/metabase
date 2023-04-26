@@ -5,7 +5,7 @@ services:
     container_name: testing-metabase
     restart: always
     ports:
-      - 3005:3000
+      - 3000:3000
     volumes:
       # declare your mount volume /host/dir:/container/dir
       - /home/app/metabase-data:/metabase-data
